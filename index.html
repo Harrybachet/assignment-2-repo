@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Assignment 5</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .banner {
+            width: 100%;
+            height: 300px;
+            background: url('path/to/your/banner.svg') no-repeat center center;
+            background-size: cover;
+        }
+
+        .banner svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        h1, h2 {
+            margin: 20px;
+        }
+
+        .css-question, .js-question {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner -->
+    <svg version="1.1" width="1800" height="300" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100%" height="100%" fill="red" />
+        <circle cx="150" cy="100" r="80" fill="green" />
+        <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+        <polygon points="100,10 150,190 50,190" style="fill:lime;stroke:purple;stroke-width:3" />
+    </svg>
+
+    <!-- Navigation Menu -->
+    <nav class="menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./views/two.html">Page Two</a></li>
+            <li><a href="./views/three.html">Page Three</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content -->
+    <h1>Assignment 5</h1>
+    <h2 class="css-question">How to Apply CSS to HTML</h2>
+    <p class="css-question">
+        To include an external CSS file in an HTML file, use the <code>&lt;link&gt;</code> element within the <code>&lt;head&gt;</code> section. For example:
+        <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
+    </p>
+    <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+    <p class="js-question">
+        To link to an external JavaScript file, use the <code>&lt;script&gt;</code> element with the <code>src</code> attribute. For example:
+        <pre><code>&lt;script src="script.js"&gt;&lt;/script&gt;</code></pre>
+        To write JavaScript code directly within an HTML file, place the code within the <code>&lt;script&gt;</code> tags. For example:
+        <pre><code>&lt;script&gt;
+    console.log('Hello, world!');
+&lt;/script&gt;</code></pre>
+    </p>
+</body>
+</html>
+
